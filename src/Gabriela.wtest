@@ -1,0 +1,22 @@
+import clientas.*
+import remiseras.*
+
+test "PrecioViajeGabrielaLlevaALudmila10Km" {
+	assert.equals(216,gabriela.precioViaje(ludmila,10))
+}
+test "PrecioViajeGabrielaLlevaAAnaMaria10Km" {
+	assert.equals(360,gabriela.precioViaje(anaMaria,10))
+}
+test "PrecioViajeGabrielaLlevaATeresa10Km" {
+	assert.equals(264,gabriela.precioViaje(teresa,10))
+}
+
+test "PrecioViajeGabrielaLlevaALudmila2Km" {
+	assert.equals(43.20,gabriela.precioViaje(ludmila,2))
+}
+test "PrecioViajeGabrielaLlevaAAnaMaria2Km" {
+	assert.equals(72,gabriela.precioViaje(anaMaria,2))
+}
+test "PrecioViajeGabrielaLlevaATeresa2Km" {
+	assert.equals(52.80,gabriela.precioViaje(teresa,2))
+}
