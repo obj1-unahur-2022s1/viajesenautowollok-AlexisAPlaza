@@ -17,15 +17,14 @@ object anaMaria{
 	}
 	
 	method cambiarEconomia(){
-		if(ecoEstable){
-			ecoEstable = false
-		}
-		else{
-			ecoEstable = true
-		}
+		ecoEstable = !ecoEstable
 	}
 	
+	method estaEstableEconomia(){
+		return ecoEstable
+	}
 }
+	
 
 object teresa{
 	var precio = 22

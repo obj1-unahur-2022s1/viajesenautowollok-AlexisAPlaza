@@ -1,5 +1,5 @@
 /*
- * definir remiseras y clientes.
+ * definir remiseras y clientas.
  */
 object roxana{
 	method precioViaje(cliente,kilometros){
